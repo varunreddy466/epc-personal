@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>document.write('<base href="'+document.location+'"/"');</script>  
+  
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--  CSS Styling files -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lib.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/so_megamenu.css">
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css">
+    
+    <!--  script tags -->
+    
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery-ui/jquery-ui.min.js"></script>    
+    <script src="js/modernizr/modernizr-2.6.2.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>   
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/homepage.js"></script>
+    <script src="js/libs.js"></script>
+    <script src="js/so_megamenu.js"></script>
+     <script src="js/application.js"></script> 
+     
+    
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').then(null, console.error.bind(console));
+    </script>
+  </head>
+
+  <body>
+    <my-app>Loading ..</my-app>
+  </body>
+</html>

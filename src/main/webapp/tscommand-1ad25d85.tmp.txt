@@ -1,0 +1,1 @@
+"/Users/varunreddydendi/Desktop/Source/EPIC/epc/src/main/webapp/app/app.module.ts" "/Users/varunreddydendi/Desktop/Source/EPIC/epc/src/main/webapp/app/footer/footer.component.ts" --emitDecoratorMetadata --experimentalDecorators --moduleResolution node --target ES5 --module commonjs
